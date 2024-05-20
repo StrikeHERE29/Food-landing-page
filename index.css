@@ -1,0 +1,105 @@
+
+:root{
+    --primary-color: #0ea24f;
+    --secondary-color: #A3e948;
+    --third-color: #fec93c;
+}
+
+
+
+body{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -100px;
+}
+
+.logo{
+    font-weight: bold;
+    background-color: #0ea24f;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.logo2{
+    font-weight: bold;
+    margin-left: 2px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+header{
+    background-color:#d3ff9921;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px 0;
+    min-width: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    min-width: 90%;
+    height:auto;
+    border: 2px solid var(--primary-color);
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.menu{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--primary-color);
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+
+.reserve{
+    color: white;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    padding: 0 30px;
+    cursor: pointer;
+    margin-right: -190px;
+    font-size: 20px;
+}
+
+.utility-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-buttons{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
