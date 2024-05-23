@@ -547,3 +547,52 @@ h4{
 .burger{
     object-fit: cover;
 }
+
+
+.history-container{
+    margin-top: 150px;
+    margin-left: 300px;
+    display: flex;
+    position: relative;
+}
+
+.history-title{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform:uppercase;
+    margin-bottom: 100px;
+}
+
+.history-text{
+    max-width: 600px;
+    color: grey;
+    font-size: 20px;
+}
+
+.history-explore{
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+
+}
+
+.history-restaurant{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.history2{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    border-radius: 150px/150px;
+    left: 650px;
+    object-fit: cover;
+    top:110px;
+}
