@@ -596,3 +596,96 @@ h4{
     object-fit: cover;
     top:110px;
 }
+
+.first-recommand{
+    display: flex;
+}
+
+.recommand1{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.recommand{
+    margin-top: 200px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.recommand-arrow{
+    position: absolute;
+    left: 170px;
+    top: 260px;
+    background-color: white;
+}
+
+.recommand-info{
+    margin-left: 40px;
+    max-width: 400px;
+}
+
+h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -1px;
+}
+
+.recommand2{
+    width: 450px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 40px;
+    margin-left: 150px;
+}
+
+.second-recommand-container {
+    position: relative;
+    margin-top: 80px;
+}
+
+.recommand3{
+    width: 450px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 40px;
+
+}
+
+.second-recommand{
+    display: flex;
+}
+
+.recommand4{
+    width: 220px ;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.second-recommand-info{
+    margin-left: 150px;
+}
+
+.second-recommand-arrow{
+    position: absolute;
+    right: 570px;
+    background-color: white;
+    top: 270px;
+}
+
+.see-all{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+}
+
+.see-all-container{
+    margin-top: 60px;
+    margin-left: 60px;
+}
