@@ -741,3 +741,89 @@ h5{
 .booking-button{
     margin-left: 50px;
 }
+
+.show-img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+.showcase{
+    display: flex;
+    position: relative;
+    height: 800px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    gap: 50px;
+    width: 100vw;
+}
+
+.showcase1{
+    border-radius:999em 999em 40px 40px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.showcase2{
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+}
+
+.showcase3{
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.showcase4{
+    width: 200px;
+    height: auto;
+    border-radius:20px ;
+    position: absolute;
+    
+}
+
+.showcase5{
+    margin-left: 250px;
+    border-radius:40px 40px 999em 999em ;
+}
+
+.showcase6{
+    border-radius: 20px;
+    width: 350px;
+   padding-bottom: 210px;
+   margin-left: 20px;
+    
+}
+
+.second-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: transparent;  
+    position: absolute;
+    top: 25%;
+    left: 800px;
+    backdrop-filter: blur(10px);
+    
+}
+
+.showcase-arrow{
+    font-size: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px;
+}
