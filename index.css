@@ -827,3 +827,92 @@ h5{
     color: white;
     padding: 40px;
 }
+
+
+.footer{
+    background:
+          conic-gradient(from 90deg at 1px 1px,
+            #d3ff9921 90deg,hsl(146, 84%, 85%) 0) -2px -2px/80px 80px;
+            margin-top: 200px ;
+            height: 800px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.adress{
+    margin-top: 100px; 
+    margin-right: 300px;
+    border-left: 4px solid var(--primary-color) ;
+    border-right: 4px solid var(--primary-color);
+    padding: 100px 250px;
+}
+
+.footer-program{
+    margin-top: 100px;
+    margin-left: -250px;
+}
+
+.footer-h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+    color: hsl(0, 0%, 30%);
+}
+
+.adress-h1{
+    margin-top:-20px ;
+}
+
+.footer-info{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.footer-logo-container{
+    margin-top: 100px;
+    margin-right: 100px ;
+    border-bottom: 2px solid var(--primary-color) ;
+    width: 100vw;
+}
+
+.footer-logo{
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-container{
+    display: flex;
+    gap: 20px;
+}
+
+.social-media{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.copy{
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
